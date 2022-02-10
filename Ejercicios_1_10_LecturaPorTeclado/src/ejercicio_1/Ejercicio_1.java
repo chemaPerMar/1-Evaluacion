@@ -22,14 +22,14 @@ public static void main(String[] args) {
 		System.out.println("Introduce tu apellido");
 		lastName = keyboard.nextLine();
 		
-		//Dirección
+		//DirecciÃ³n
 		System.out.println("Introduce tu Direccion: 1: Calle, 2: Numero de calle, 3: Codigo Postal");
 		street = keyboard.nextLine();
 		numberStreet = keyboard.nextInt();
 		postalCode = keyboard.nextInt();
 		
 		//Provincia
-		System.out.println("¿Donde vives?");
+		System.out.println("Â¿Donde vives?");
 		
 		keyboard.nextLine(); //Salto de linea necesario para que no ocurra el error de saltarse un scanner
 		
@@ -54,7 +54,7 @@ public static void main(String[] args) {
 		//Imprimiendo los datos
 		
 		System.out.println("Tu nombre completo es " + name + " " + lastName + " y "
-				+ "tienes " + age + " años.\n");
+				+ "tienes " + age + " aÃ±os.\n");
 		
 		System.out.println("Vives en la calle " + street + " " + numberStreet
 				+ "\nTu codigo postal es " + postalCode + " y vives en " + province);
@@ -64,7 +64,7 @@ public static void main(String[] args) {
 			System.out.println("Eres un estudiante");
 		}
 		
-		System.out.println("Mides " + height + " cm");
+		System.out.println("El usuario mide " + height + " cm");
 		
 
 	}
